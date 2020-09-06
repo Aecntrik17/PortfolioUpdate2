@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Sims Portfolio-Portfolio</title>
+    <!-- assigning bootstrap css and javascrip files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- bootstrap navbar will be consistent will all pages in portfolio -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1">Aaron D. Sims</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="assets/2020 Sept A Sims Resume.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/aarondsims" target="_blank">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.github.com/Aecntrik17" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="welcome">
+      <h4>Completed Projects</h4>
+      <p>Thanks for you interest in my work!<br> 
+      please click the title for access to the github repository.<br>
+      You can also preview projects by selecting the deployed application link.
+    </p>
+    </div>
+    <!-- creating page container -->
+        <div class="container">
+      
+        
+        <!-- applying bootstrap layout for card image overlay -->
+        
+            <!-- row one, column one -->
+          <div class="box">
+            <a class="portfolio-item-container"
+            href="https://github.com/Aecntrik17/HW4-Javascript-Quiz" target="blank"><img
+              class="image"
+              alt="Javascript Quiz"
+              src="./Assets/quiz.jfif"
+              class="rounded"
+            />
+            <span class="badge badge-default">Javascript Quiz</span>
+          </a>
+          <a class="deployed" href="https://aecntrik17.github.io/HW4-Javascript-Quiz/" target="_blank"><p>Deployed Application</p></a>
+          </div>
+      <!-- row one, column two -->
+      <div class="box">
+          <!-- attaching a/href so that the image becomes a hyperlink -->
+        <a class="portfolio-item-container" href="https://github.com/Aecntrik17/HW3-Password-Generator" target="blank">    
+          <img
+          class="image"
+          alt="Password Generator"
+          src="./Assets/password.png"
+          class="rounded"
+          />
+          <span class="badge badge-default">Password Generator</span>
+        </a>
+        <a class="deployed" href="https://aecntrik17.github.io/HW3-Password-Generator/" target="_blank"><p>Deployed Application</p></a>
+        </div>
+      
+    <!-- row two -->
+      
+          <!-- row two, column one -->
+        <div class="box">
+            <!-- attaching a/href so that the image becomes a hyperlink -->
+            <a class="portfolio-item-container" href="https://github.com/Aecntrik17/HW6-Weather-App">
+          <img class="image" alt="Weather App" src="./Assets/weather.jfif" class="rounded" />
+          <span class="badge badge-default">Weather App</span>
+        </a>
+        <a class="deployed" href="https://aecntrik17.github.io/HW6-Weather-App/" target="_blank"><p>Deployed Application</p></a>
+        </div>
+    <!-- row two, column two -->
+        <div class="box">
+<!-- attaching a/href so that the image becomes a hyperlink -->
+            <a class="portfolio-item-container" href="https://github.com/Aecntrik17/Movin-On-Up" target="blank">
+          <img
+          class="image"
+            alt="Movin On Up"
+            src="./Assets/movin.jfif"
+            class="rounded"
+          />
+          <span class="badge badge-default">Movin' On Up App</span>
+        </a>
+        <a class="deployed" href="https://aecntrik17.github.io/Movin-On-Up/" target="_blank"><p>Deployed Application</p></a>
+        </div>
+      
+      <!-- row three, column one -->
+      
+<!-- attaching a/href so that the image becomes a hyperlink -->
+        <div class="box">
+            <a class="portfolio-item-container" href="https://github.com/Aecntrik17/HW5-planner-scheduler" target="blank">
+          <img
+          class="image"
+            alt="Bootstrap Image Preview"
+            src="./Assets/planner.jfif"
+            class="rounded"
+          />
+          <span class="badge badge-default">Daily Planner</span>
+        </a>
+        <a class="deployed" href="https://aecntrik17.github.io/HW5-planner-scheduler/" target="_blank"><p>Deployed Application</p></a>
+        </div>
+    <!-- row three, column two -->
+        <div class="box">
+            <!-- attaching a/href so that the image becomes a hyperlink -->
+            <a class="portfolio-item-container" href="https://github.com/Aecntrik17/HW11_noteTaker" target="blank">
+          <img
+          class="image"
+            alt="Bootstrap Image Preview"
+            src="./Assets/NoteTaker.png"
+            class="rounded"
+          />
+          <span class="badge badge-default">Note Taker</span>
+        </a>
+        <a class="deployed" href="https://young-badlands-84423.herokuapp.com/" target="_blank"><p>Deployed Application</p></a>
+        </div>
+      </div>
+    </div>
+
+      
+
+    <!-- footer will be consistent among all pages in this portfolio -->
+    <div class="footer">
+        <p>&copy Aaron D. Sims</p>
+      </div>
+    
+    </body>
