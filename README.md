@@ -10,3 +10,7 @@ Second Portfolio Update
 - Updated LinkedIn Profile: I am not updating my LinkedIn profile at this time because I am still managing my existing businesses and not ready to disclose to the public I may be intending to change industries. http://www.linkedin.com/in/aarondsims
 
 Each project or homework has links to the github repository and the deployed application if applicable.
+
+Portfolio Deployed: https://aecntrik17.github.io/PortfolioUpdate2/
+
+Github Repo: https://github.com/Aecntrik17/PortfolioUpdate2
