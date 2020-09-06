@@ -1,0 +1,138 @@
+.container {
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  min-height: 700px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 65%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  text-align: center;
+  color: blue;
+}
+
+.deployed {
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+.box {
+  margin: 10px;
+  border-style: ridge;
+  border-color: aqua;
+  height: 300px;
+}
+.portfolio-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 155px; */
+}
+
+body {
+  background-color: ghostwhite;
+}
+/*
+.collapse.navbar-collapse {
+    text-align: right;
+}
+
+.container.col-sm-6 {
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 65%;
+    text-align: justify;
+}
+
+.col-sm-auto.col-md-6 {
+    margin-top: 10px;
+}
+
+h1 {
+    border-bottom: solid;
+    border-color: grey;
+    color: turquoise;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5 {
+    text-emphasis: bold;
+    text-align: center;
+       font-size: 12px;
+
+}
+
+.card-title {
+    background-color: crimson;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+        
+}
+
+.card-title.col-sm-12 {
+    background-color: oldlace;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px){
+    h5 {
+        text-emphasis: bold;
+        text-align: center;
+           font-size: 1rem;
+    } 
+
+    .container.col-sm-6 {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .container.col-sm-6 {
+        height: auto;
+    }
+
+    h5 {
+        text-emphasis: bold;
+        text-align: center;
+           font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+        .container.col-sm-6 {
+            height: auto;
+        }
+} */
